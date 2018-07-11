@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1531293124442
+Build-Jdk: 1.8.0_171
+Built-By: root
+Bundle-Category: jahia-module
+Bundle-Description: This is the custom JahiApp module (Sample JahiApp) f
+ or running on a Digital Experience Manager server.
+Bundle-DocURL: http://www.jahia.com
+Bundle-ManifestVersion: 2
+Bundle-Name: Sample JahiApp
+Bundle-SymbolicName: sample
+Bundle-Vendor: Jahia Solutions Group SA
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Dynamic-ImportPackage: *
+Implementation-Title: Sample JahiApp
+Implementation-URL: http://www.jahia.com
+Implementation-Vendor: Jahia Solutions Group SA
+Implementation-Version: 1.0-SNAPSHOT
+Import-Package: org.jahia.services,org.jahia.defaults.config.spring,org.
+ apache.naming.java,org.jahia.exceptions
+Jahia-Depends: default
+Jahia-Download-Sources-Available: true
+Jahia-GroupId: org.jahia.modules
+Jahia-Module-Type: jahiapp
+Jahia-Required-Version: 7.1.1.0
+Jahia-Source-Control-Connection: scm:dummy:uri
+Jahia-Source-Control-DeveloperConnection: scm:dummy:uri
+Jahia-Source-Control-Tag: HEAD
+Jahia-Source-Folders: /opt/maven/apache-maven-3.2.5/all_pro23/hari7
+Jahia-Static-Resources: /css,/icons,/images,/img,/javascript
+Require-Capability: com.jahia.services.content;filter:="(nodetypes=jnt:c
+ ontentFolder)",com.jahia.services.content;filter:="(nodetypes=jnt:folde
+ r)",com.jahia.services.content;filter:="(nodetypes=jnt:module)",com.jah
+ ia.services.content;filter:="(nodetypes=jnt:modules)",com.jahia.service
+ s.content;filter:="(nodetypes=jnt:portletFolder)",com.jahia.services.co
+ ntent;filter:="(nodetypes=jnt:templatesFolder)"
+Specification-Title: Sample JahiApp
+Specification-Vendor: Jahia Solutions Group SA
+Specification-Version: 1.0-SNAPSHOT
+Tool: Bnd-2.3.0.201405100607
